@@ -3,7 +3,7 @@
 ### Esecuzione dell'applicazione
 ![Risultato del gioco GiocaNumeri](immagini/output.png)
 
-## 1.
+## 1. come funziona
 GiocaNumeri implementa un modello di concorrenza basato su thread multipli in java. il thread principale ovvere il main avvia il peimo thread g1, effettua una pausa temporizzata tra mite sleep, avvia il secondo thread g2 e infine utilizza il metodo join per attendere la conclusione di entrambi i thread prima di stampare il messaggio di chiusura del gioco. All'interno dei thread, l'uso di yield favorisce l'alternanza nell'esecuzione.
 
 ## 2. Metodi usati 
