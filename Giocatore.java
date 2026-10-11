@@ -54,11 +54,12 @@ public class Giocatore extends Thread {
      */
     public void gioca() {
         int numero = 19;
-        String parolaStr = "Divertiti";
+        String parolaStr = "Il tuo ";
         setParola(parolaStr);
 
         for (int i = 0; i < numero; i++) {
             System.out.println("Giocatore : " + nome + " i: " + i);
+            Thread.yield();
         }
         
         try {

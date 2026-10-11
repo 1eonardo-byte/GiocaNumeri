@@ -11,7 +11,7 @@ public class GiocaNumeri {
          try {
             Thread.sleep(5000);
          } catch (InterruptedException e){
-            System.out.println("Errore nella sospensione del Thread main: " + e.getMessage());
+            System.err.println("Errore nella sospensione del Thread main: " + e.getMessage());
          } 
          
          Giocatore g2 = new Giocatore("Paolo");
