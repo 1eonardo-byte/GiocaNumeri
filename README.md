@@ -1,3 +1,4 @@
+<img width="542" height="595" alt="Screenshot 2026-10-12 alle 00 16 47" src="https://github.com/user-attachments/assets/4951c787-c5c8-44fc-921d-d7fa82caa711" />
 # GiocaNumeri
 
 ### Esecuzione dell'applicazione
